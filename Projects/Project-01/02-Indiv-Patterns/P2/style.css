@@ -1,0 +1,142 @@
+
+
+.style{
+	width:1200px;
+	margin:0 auto;
+}
+.element{
+    position: fixed;
+    top:50px;
+    left:20px;
+	width:10px;
+	height:10px;
+	border-radius:5px;
+	background:blue;
+    z-index:1;
+}
+.style1{
+	width: 150px;
+    height: 100px;
+    margin-left:20px;
+    -webkit-transform: skew(20deg);
+       -moz-transform: skew(20deg);
+         -o-transform: skew(20deg);
+    background: #79b1db;
+	float:left;
+	margin-bottom:50px;
+}
+.style2 {
+    width: 100px;
+    height: 55px;
+    background: #abfda5;
+    position: relative;
+	float:left;
+	margin-bottom: 100px;
+	margin-left:57px;
+	position:relative;
+}
+.style2:before {
+    content: "";
+    position: absolute;
+    top: -25px; 
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 25px solid #abfda5;
+}
+.style2:after {
+    content: "";
+    position: absolute;
+    bottom: -25px; 
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 25px solid #abfda5;
+}
+.style3{
+	width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #f1c7ea;
+}
+
+.style4 {
+    position: relative;
+    width: 200px;
+    height: 100px;
+	float:left;
+	margin-left: 50px;
+	margin-bottom:40px;
+}
+ 
+.style4:before,
+.style4:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;    
+    border: 20px solid yellow;
+    -moz-border-radius: 50px 50px 0 50px;
+         border-radius: 50px 50px 0 50px;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+}
+ 
+.style4:after {
+    left: auto;
+    right: 0;
+    -moz-border-radius: 50px 50px 50px 0;
+         border-radius: 50px 50px 50px 0;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,136 @@
+
+
+.chart{
+	width:1300px;
+	margin:0 auto;
+}
+.element{
+    position: fixed;
+	width:20px;
+	height:20px;
+	border-radius:5px;
+    z-index:2;
+}
+
+#heart {
+    position: relative;
+    width: 100px;
+    height: 90px;
+}
+#heart:before,
+#heart:after {
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: #f1cbe8;
+    -moz-border-radius: 50px 50px 0 0;
+    border-radius: 50px 50px 0 0;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+       -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+         -o-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+}
+#heart:after {
+    left: 0;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+       -moz-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+         -o-transform-origin: 100% 100%;
+            transform-origin :100% 100%;
+}               
+
+   #Sector {
+      width:0;
+      height:0;
+      float: left;
+      background-color: #ffffff;
+      border-left: 70px solid transparent;
+      border-right: 70px solid transparent;
+      border-top: 100px solid #ab9ed1;
+      border-radius:50%;
+	  position:relative;
+	  z-index:1;
+	  margin-bottom: 50px;
+    }
+   #Diamonds{
+     width: 50px;
+     height: 0;
+     float: left;
+     border-style: solid;
+     border-color: transparent transparent #e8e3bf transparent;
+     border-width: 0 25px 25px 25px;
+     position: relative;
+     margin: 20px 0 50px 0;
+	 margin-left: 50px;
+    margin-bottom: 100px;
+   }
+   #Diamonds:after{
+     width: 0;
+     height: 0;
+     top: 25px;
+     left: -25px;
+     border-style: solid;
+     border-color: #9aff02 transparent transparent transparent;
+     border-width: 70px 50px 0 50px;
+     position: absolute;
+     content: "";
+    }
+
+   #Circle{
+     width:100px;
+     height:100px;
+     float: left;
+     background: #71dbe9;
+     -moz-border-radius: 50px;
+     -webkit-border-radius: 50px;
+     border-radius: 50px;
+	 margin-bottom:50px;
+	 margin-left:50px;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
