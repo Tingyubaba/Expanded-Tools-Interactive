@@ -25,6 +25,21 @@
 	float:left;
 	margin-bottom:50px;
 }
+
+div.style1:hover{
+
+    width: 150px;
+    height: 100px;
+    margin-left:20px;
+    -webkit-transform: skew(-20deg);
+       -moz-transform: skew(-20deg);
+         -o-transform: skew(-20deg);
+    background: #00ff00;
+    float:left;
+    margin-bottom:50px;
+
+}
+
 .style2 {
     width: 100px;
     height: 55px;

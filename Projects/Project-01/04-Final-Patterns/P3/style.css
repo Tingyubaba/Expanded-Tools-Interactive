@@ -1,0 +1,101 @@
+
+
+.chart{
+	width:1200px;
+  margin-top: 35px;
+  margin-left: 20px;
+}
+
+.style4 {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    float:left;
+    margin-left: 50px;
+    margin-bottom:40px;
+    animation: roll 8s infinite;
+    transform: rotate(300deg);
+  
+  
+}
+
+.style4:before,
+.style4:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;    
+    border: 20px solid #36b8e0;
+    -moz-border-radius: 50px 50px 0 50px;
+         border-radius: 50px 50px 0 50px;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);         
+}
+ 
+.style4:after {
+    left: auto;
+    right: 0;
+    border: 20px solid #fcef06;
+    -moz-border-radius: 50px 50px 50px 0;
+         border-radius: 50px 50px 50px 0;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+          }
+
+  @keyframes roll {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(1200deg);
+  }
+
+body, html {
+  height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

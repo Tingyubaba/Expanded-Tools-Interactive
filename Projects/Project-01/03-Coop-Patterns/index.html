@@ -10,6 +10,97 @@
 	<body>
 
 		<div class="main">
+			<meta charset="UTF-8">
+    <title>HTML5+CSS3 skew倾斜、rotate旋转动画</title>
+    <style type="text/css">
+      
+      #warp {
+        width: 320px;
+        height: 320px;
+        background: #6FDE82;
+        margin: 20px auto;
+      }
+      
+      #box {
+        height: 40px;
+        width: 40px;
+        background: yellow;
+        position: relative;
+        top: 280px;
+        left: 0;
+        animation: move 5s infinite;
+        
+      }
+      
+      @keyframes move {
+        0% {
+          top: 280px;
+          left: 0;
+          transform: skewX(0deg);
+          width: 40px;
+          height: 40px;
+        }
+        20% {
+          top: 0;
+          left: 0;
+          transform: skewX(50deg);
+          width: 60px;
+          height: 20px;
+          background: red;
+        }
+        22% {
+          top: 0;
+          left: 0;
+          transform: skewX(0deg);
+          width: 40px;
+          height: 40px;
+        }
+        30% {
+          top: 0;
+          left: 0;
+          transform: skewX(0deg);
+          width: 320px;
+          height: 40px;
+        }
+        40% {
+          top: 0;
+          left: 280px;
+          transform: skewX(0deg);
+          width: 40px;
+          height: 40px;
+          background: green;
+        }
+        50% {
+          top: 0;
+          left: 280px;
+          transform: skewX(0deg);
+          width: 20px;
+          height: 320px;
+        }
+        55% {
+          top: 280px;
+          left: 280px;
+          transform: skewX(0deg);
+          width: 40px;
+          height: 40px;
+          background: blue;
+        }
+        60% {
+          transform: rotate(-90deg);
+          transform-origin: left bottom;
+        }
+        65% {
+          transform: rotate(-180deg);
+          transform-origin: left top;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="warp">
+      <div id="box"></div>
+    </div>
 
 			
 		</div>
