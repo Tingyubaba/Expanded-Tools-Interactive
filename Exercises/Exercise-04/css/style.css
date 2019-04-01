@@ -1,0 +1,161 @@
+@import url();
+
+body{
+	font-family: "LTRCondensedNo1-Grade2";
+	color: white;
+	font-size: 3.9vh;
+}
+
+/* Text
+-------------------------------------------------- */
+
+a{	color: white;
+	font-family: "LTRCondensedNo2-Grade1";
+	text-decoration: none;
+}
+a:hover{
+	font-family: "LTRCondensedNo2-Grade3";
+}
+
+p{
+	padding-top: 2em;
+	font-family: "LTRCondensedNo1-Grade2";
+	color: white;
+}
+
+p.thanks{
+	font-size: 0.7em;
+	padding-top: 0.2em;
+	font-family: "LTRCondensedNo1-Grade2";
+	color: orange;
+	margin-left: 0.5em;
+}
+
+ul.pages{
+	list-style: none;
+}
+
+/* Image
+-------------------------------------------------- */
+
+	#box01{
+		position: absolute;
+		margin-top:0;
+		margin-left:0vw;
+		height: 100vh;
+		width: 50vw;
+	}
+	#box02{
+		position: absolute;
+		margin-top:0;
+		margin-left:50vw;
+		height: 110vh;
+		width: 25vw;
+		background-color: #3154cc;
+	}
+	#box03{
+		position: absolute;
+		margin-top:0;
+		margin-left:75vw;
+		height: 50vh;
+		width: 25vw;
+		background-color: #00a56e;
+	}
+	#box04{
+		position: absolute;
+		margin-top:50vh;
+		margin-left:75vw;
+		height: 60vh;
+		width: 25vw;
+		background-color: #795548;
+	}
+
+/* iPad 
+-------------------------------------------------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+  /* text */
+  body{
+		font-size: 7vh;
+	}
+	#box01{
+		position: absolute;
+		margin-top:0;
+		margin-left:0vw;
+		height: 100vh;
+		width: 50vw;
+	}
+	#box02{
+		position: absolute;
+		margin-top:0;
+		margin-left:50vw;
+		height: 100vh;
+		width: 25vw;
+		background-color: #612867;
+	}
+	#box03{
+		position: absolute;
+		margin-top:0;
+		margin-left:75vw;
+		height: 50vh;
+		width: 25vw;
+		background-color: #00a56e;
+	}
+	#box04{
+		position: absolute;
+		margin-top:50vh;
+		margin-left:75vw;
+		height: 50vh;
+		width: 25vw;
+		background-color: #795548;
+	}
+
+  /* image */
+
+}
+
+/* Mobile
+-------------------------------------------------- */
+
+@media screen and (max-width: 768px) {
+
+  /* text */
+
+	body{
+		font-size: 4.5vh;
+	}
+	#box01{
+		position: absolute;
+		margin-top:0;
+		margin-left:0;
+		height: 50vh;
+		width: 100vw;
+	}
+	#box02{
+		position: absolute;
+		margin-top:50vh;
+		margin-left:0vw;
+		height: 50vh;
+		width: 100vw;
+		background-color: #3154cc;
+	}
+	#box03{
+		position: absolute;
+		margin-top: 100vh;
+		height: 50vh;
+		margin-left: 0;
+		width: 100vw;
+		background-color: #00a56e;
+	}
+	#box04{
+		position: absolute;
+		margin-top: 150vh;
+		height: 50vh;
+		margin-left: 0;
+		width: 100%;
+		background-color: #795548;
+	}
+  /* image */
+
+}
+
