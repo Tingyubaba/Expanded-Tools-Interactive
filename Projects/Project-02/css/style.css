@@ -1,0 +1,409 @@
+
+
+img.letterAclip{
+	opacity: 1;
+	transition: opacity 0.1s;
+	-webkit-transition: opacity 2s;
+	clip-path: url(#letter-a);
+	margin-top: 40px;
+    margin-left: 80px;
+    position: absolute; 
+    transition: all 3s ease-out;
+
+}
+img.letterAclip:focus{
+	opacity: 1;
+
+
+}
+
+
+img.letterBclip{
+	clip-path: url(#letter-b);
+	margin-top: -50px;
+    margin-left: 340px;
+    position: absolute;
+
+    opacity: 0.2;
+	transition: opacity 0.1s;
+	-webkit-transition: opacity 2s;
+	transition: all 3s ease-out;
+}
+img.letterBclip:hover{
+	opacity: 1;
+	margin-top: 290px;
+	
+}
+
+img.letterCclip{
+	clip-path: url(#letter-c);
+	margin-top: -30px;
+    margin-left: -210px;
+    position: absolute;
+
+    opacity: 0.2;
+	transition: opacity 0.1s;
+	-webkit-transition: opacity 2s;
+	transition: all 3s ease-out;
+}
+img.letterCclip:hover{
+	opacity: 1;
+	margin-top: 320px;
+	
+}
+
+img.letterDclip{
+	clip-path: url(#letter-d);
+	margin-top: -35px;
+    margin-left: 90px;
+    position: absolute;
+
+    opacity: 0.2;
+	transition: opacity 0.1s;
+	-webkit-transition: opacity 2s;
+	transition: all 3s ease-out;
+}
+img.letterDclip:hover{
+	opacity: 1;
+	margin-left: -210px;
+
+}
+
+img.letterEclip{
+	clip-path: url(#letter-e);
+	margin-top: 340px;
+    margin-left: -790px;
+    position: absolute;
+
+    opacity: 0.2;
+	transition: opacity 0.1s;
+	-webkit-transition: opacity 2s;
+	transition: all 3s ease-out;
+}
+img.letterEclip:hover{
+	opacity: 1;
+	margin-top: 40px;
+	
+}
+
+img.letterFclip{
+	clip-path: url(#letter-f);
+	margin-top: 340px;
+    margin-left: -490px;
+    position: absolute;
+
+    opacity: 0.2;
+	transition: opacity 0.1s;
+	-webkit-transition: opacity 2s;
+	transition: all 3s ease-out;
+
+}
+img.letterFclip:hover{
+	opacity: 1;
+	margin-left: -790px;
+}
+
+img.letterGclip{
+	clip-path: url(#letter-g);
+	margin-top: 320px;
+    margin-left: -210px;
+    position: absolute;
+
+    opacity: 0.2;
+	transition: opacity 0.1s;
+	-webkit-transition: opacity 2s;
+	transition: all 3s ease-out;
+}
+img.letterGclip:hover{
+	opacity: 1;
+	 margin-left: 80px;
+}
+
+img.letterHclip{
+	clip-path: url(#letter-h);
+	margin-top: 350px;
+    margin-left: 80px;
+    position: absolute;
+
+    opacity: 0.2;
+	
+	-webkit-transition: opacity 2s;
+	transition: all 3s ease-out;
+}
+img.letterHclip:hover{
+	opacity: 1;
+	margin-top: -35px
+
+}
+
+img.letterIclip{
+	clip-path: url(#letter-i);
+	margin-top: 680px;
+    margin-left: -840px;
+    position: absolute;
+
+    opacity: 1;
+	transition: opacity 0.1s;
+	-webkit-transition: opacity 1s;
+}
+
+ img.letterIclip:active{
+   opacity:0;
+  }
+
+
+img.letterJclip{
+	clip-path: url(#letter-j);
+	margin-top: 680px;
+    margin-left: -480px;
+    position: absolute;
+
+    opacity: 0.2;
+	transition: opacity 0.1s;
+	-webkit-transition: opacity 2s;
+}
+img.letterJclip:hover{
+	opacity: 1;
+}
+
+img.letterKclip{
+	clip-path: url(#letter-k);
+	margin-top: 700px;
+    margin-left: -155px;
+    position: absolute;
+
+    opacity: 1;
+	transition: opacity 0.1s;
+	-webkit-transition: opacity 1s;
+}
+img.letterKclip:active{
+   opacity:0;
+}
+
+img.letterLclip{
+	clip-path: url(#letter-l);
+	margin-top: 695px;
+    margin-left: 120px;
+    position: absolute;
+
+    opacity: 0.2;
+	transition: opacity 0.1s;
+	-webkit-transition: opacity 2s;
+}
+img.letterLclip:hover{
+	opacity: 1;
+}
+
+img.letterMclip{
+	clip-path: url(#letter-m);
+	margin-top: 1020px;
+    margin-left: -840px;
+    position: absolute;
+
+    opacity: 0.2;
+	transition: opacity 0.1s;
+	-webkit-transition: opacity 2s;
+}
+img.letterMclip:hover{
+	opacity: 1;
+}
+
+img.letterNclip{
+	clip-path: url(#letter-n);
+	margin-top: 1030px;
+    margin-left: -500px;
+    position: absolute;
+
+    opacity: 1;
+	transition: opacity 0.1s;
+	-webkit-transition: opacity 1s;
+}
+img.letterNclip:active{
+   opacity:0;
+}
+
+img.letterOclip{
+	clip-path: url(#letter-o);
+	margin-top: 1020px;
+    margin-left: -190px;
+    position: absolute;
+
+    opacity: 0.2;
+	transition: opacity 0.1s;
+	-webkit-transition: opacity 1s;
+}
+img.letterOclip:hover{
+	opacity: 1;
+}
+
+img.letterPclip{
+	clip-path: url(#letter-p);
+	margin-top: 1020px;
+    margin-left: 120px;
+    position: absolute;
+
+    opacity: 1;
+	transition: opacity 0.1s;
+	-webkit-transition: opacity 1s;
+}
+img.letterPclip:active{
+   opacity:0;
+}
+
+img.letterQclip{
+	clip-path: url(#letter-q);
+	margin-top: 1380px;
+    margin-left: -840px;
+    position: absolute;
+
+    opacity: 0.8;
+	transition: opacity 0.1s;
+	-webkit-transition: opacity 2s;
+	transition: all 3s ease-out; 
+}
+img.letterQclip:hover {
+  filter: blur(5px);
+  transition: opacity 1.5;
+}
+
+img.letterRclip{
+	clip-path: url(#letter-r);
+	margin-top: 1380px;
+    margin-left: -500px;
+    position: absolute;
+
+    opacity: 0.2;
+	transition: opacity 0.1s;
+	-webkit-transition: opacity 2s;
+	transition: all 3s ease-out; 
+}
+
+
+
+
+img.letterSclip{
+	clip-path: url(#letter-s);
+	margin-top: 1400px;
+    margin-left: -190px;
+    position: absolute;
+
+    opacity: 0.8;
+	transition: opacity 0.1s;
+	-webkit-transition: opacity 2s;
+	transition: all 3s ease-out; 
+}
+img.letterSclip:hover {
+  filter: blur(5px);
+  transition: opacity 1.5;
+}
+
+img.letterTclip{
+	clip-path: url(#letter-t);
+	margin-top: 1400px;
+    margin-left: 60px;
+    position: absolute;
+
+    opacity: 0.2;
+	transition: opacity 0.1s;
+	-webkit-transition: opacity 2s;
+}
+img.letterTclip:hover{
+	opacity: 1;
+}
+
+img.letterUclip{
+	clip-path: url(#letter-u);
+	margin-top: 1730px;
+    margin-left: -860px;
+    position: absolute;
+
+    opacity: 0.2;
+	transition: opacity 0.1s;
+	-webkit-transition: opacity 2s;
+}
+img.letterUclip:hover{
+	opacity: 1;
+}
+
+img.letterVclip{
+	clip-path: url(#letter-v);
+	margin-top: 1730px;
+    margin-left: -580px;
+    position: absolute;
+
+    opacity: 0.8;
+	transition: opacity 0.1s;
+	-webkit-transition: opacity 2s;
+	transition: all 3s ease-out; 
+}
+img.letterVclip:hover {
+  filter: blur(5px);
+  transition: opacity 1.5;
+}
+
+
+img.letterWclip{
+	clip-path: url(#letter-w);
+	margin-top: 1730px;
+    margin-left: -300px;
+    position: absolute;
+
+    opacity: 0.2;
+	transition: opacity 0.1s;
+	-webkit-transition: opacity 2s;
+}
+img.letterWclip:hover{
+	opacity: 1;
+}
+
+img.letterXclip{
+	clip-path: url(#letter-x);
+	margin-top: 1730px;
+    margin-left: 40px;
+    position: absolute;
+
+    opacity: 0.8;
+	transition: opacity 0.1s;
+	-webkit-transition: opacity 2s;
+	transition: all 3s ease-out; 
+}
+img.letterXclip:hover {
+  filter: blur(5px);
+  opacity 0.2;
+}
+
+
+img.letterYclip{
+	clip-path: url(#letter-y);
+	margin-top: 2080px;
+    margin-left: -540px;
+    position: absolute;
+
+    opacity: 0.6 ;
+	transition: opacity 0.1s;
+	-webkit-transition: opacity 2s;
+}
+img.letterYclip:focus{
+
+}
+img.letterYclip:hover{
+	opacity: 1;
+}
+
+img.letterZclip{
+	clip-path: url(#letter-z);
+	margin-top: 2070px;
+    margin-left: -260px;
+    position: absolute;
+
+    opacity: 0.6;
+	transition: opacity 0.1s;
+	-webkit-transition: opacity 2s;
+}
+img.letterZclip:focus{
+	opacity: 1;
+}
+img.letterZclip:hover{
+	opacity: 1.2;
+}
+
