@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="utf-8">
+  	<title>example</title>
+  	<style>
+  		.redbox{
+  			width: 250px;
+  			height: 250px;
+  			background-color: red;
+  			margin: 5%;
+  			position: relative;
+  			display: inline-block;
+  		}
+
+  		.bluecircle{
+  			width: 250px;
+  			height: 250px;
+  			border-radius: 50%;
+  			background-color: blue;
+  			margin: 5%;
+  			position: relative;
+  			display: inline-block;
+  		}
+
+  		.greentriangle{
+  			width: 0;
+  			height: 0;
+  			border-left: 120px solid transparent;
+  			border-right: 120px solid transparent; 
+  			border-bottom:100px solid green;
+  			margin: 5%;
+  			position: relative;
+  			display: inline-block;
+  		}
+
+  		.title{
+  			background-color: yellow;
+  			padding: 2%;
+  		}
+
+
+  		.content{
+  			width: 20%;
+  		}
+  		img{
+  			display: hide;
+  		}
+  	</style>
+    
+ </head>
+
+ <body>
+ 	<button id="one"> Button One </button>
+ 	<button id="two"> Button Two </button>
+
+ 	
+
+ 	<div id="container-1">
+ 	   <div class="redbox"></div>
+ 	   <div class="bluecircle"></div>
+ 	   <div class="greentriangle"></div>
+ 	   <div class="redbox"></div>
+ 	   <div class="greentriangle"></div>
+ 	   <div class="bluecircle"></div>
+ 	   <div class="redbox"></div>
+ 	   <div class="bluecircle"></div>
+ 	   <div class="greentriangle"></div>
+    </div>
+
+    <div class="text-container">
+    	<div class="title">Tittle One</div>
+    	<div class="content">
+    	   <img src="ink.jpg">
+    	</div>
+    </div>
+
+    <div class="text-container">
+    	<div class="title">Tittle Two</div>
+    	<div class="content">
+    	   asdfbhlasdlfnsaldf laskdflsa lsnlskdfalskfjkd lskndlakn lsdknlan sljdnfalssss
+    	</div>
+    </div>
+
+
+
+ 	
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+    <script src="js/script.js"></script>
+
+ </body>
+</html>
